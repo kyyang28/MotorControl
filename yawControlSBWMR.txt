@@ -1,0 +1,168 @@
+	float yawPwm, yawError;
+	float Kp = 30;
+	
+	if (driveForward == 0 && driveReverse == 0 && turnLeft == 1 && turnRight == 0) {
+		yawMagnitude = -6000;
+	} else if (driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 1) {
+		yawMagnitude = 6000;
+	} else if (driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 0) {
+		yawMagnitude = 0;
+	}
+	
+	yawError = gyroZ - 0;
+	
+	yawPwm = Kp * yawError;
+	
+	yawPwm += yawMagnitude;
+	
+	return (int)yawPwm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+static int yawControlSBWMR(float gyroZ, int leftEncoder, int rightEncoder)
+{
+	float yawPwm;
+	float Kp = 26.4f;
+//	float Kp = 42.4;
+	float Kd = 0.5f;
+	float yawError;
+	bool yawFlag = false;
+	static float encoderTemp, yawAdjust, yawSetpoint, yawAdjustCount;
+
+//	printf("attitude.raw[Z]: %d\r\n", attitude.raw[Z]);
+	
+//	yawError = attitude.raw[Z] - 0;
+//	yawPwm = Kp * yawError + Kd * gyroZ;
+	
+#if 1
+	if ((driveForward == 0 && driveReverse == 0 && turnLeft == 1 && turnRight == 0) ||
+		(driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 1)) {
+		
+		if (++yawAdjustCount == 1) {
+			encoderTemp = ABS(leftEncoder + rightEncoder);
+		}
+		
+		yawAdjust = 50 / encoderTemp;
+
+//		printf("%d,%d,%.2f,%.2f\r\n", leftEncoder, rightEncoder, encoderTemp, yawAdjust);
+		
+		if (yawAdjust < 0.6) {
+			yawAdjust = 0.6;
+		}
+		
+		if (yawAdjust > 3) {
+			yawAdjust = 3;
+		}
+	} else {
+		yawAdjust = 0.0;
+		encoderTemp = 0.0;
+	}
+	
+	if (driveForward == 0 && driveReverse == 0 && turnLeft == 1 && turnRight == 0) {
+		
+		yawSetpoint -= yawAdjust;
+//		printf("yawSetpointLeft: %.2f\r\n", yawSetpoint);
+//		yawFlag = true;
+		
+	} else if (driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 1) {
+		
+		yawSetpoint += yawAdjust;
+//		printf("yawSetpointRight: %.2f\r\n", yawSetpoint);
+//		yawFlag = true;
+	
+	} else {
+		yawSetpoint = 0;
+	}
+	
+//	else if ((driveForward == 1 && driveReverse == 0 && turnLeft == 0 && turnRight == 0)
+//				|| (driveForward == 0 && driveReverse == 1 && turnLeft == 0 && turnRight == 0)) {
+//		
+//		yawSetpoint = 0;
+//		
+//	} else if (driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 0) {
+//		
+//		yawSetpoint = 0;
+//		
+//		yawFlag = false;
+//		
+//		if (velocityUpdatedMovement == 0) {
+//			++stationaryFlag;
+//		}
+//	}
+	
+	/* INACTIVITY_CONDITION = 1000, 10ms * 1000 = 10000 ms = 10 secs (INACTIVITY TIME OUT) */
+//	if ((velocityUpdatedMovement == 0) && (yawFlag == false) && (stationaryFlag >= INACTIVITY_CONDITION)) {
+
+//		yawSetpoint += yawAdjust;
+
+//		/* Inactivity condition is triggered, stationary spin */
+//		yawMagnitude = 25;
+//	}	
+		
+	/* Limit yawSetpoint */
+	if (yawSetpoint > yawMagnitude) {
+		yawSetpoint = yawMagnitude;
+	}
+	
+	if (yawSetpoint < -yawMagnitude) {
+		yawSetpoint = -yawMagnitude;
+	}
+	
+//	if ((driveForward == 1 && driveReverse == 0 && turnLeft == 0 && turnRight == 0)
+//		|| (driveForward == 0 && driveReverse == 1 && turnLeft == 0 && turnRight == 0)) {
+//		Kd = 0.5f;
+//	} else {
+//		Kd = 0.0f;
+//	}
+	
+	/* Yaw PD controller */
+	yawPwm = Kp * yawSetpoint + Kd * gyroZ;
+	
+#endif
+	
+#if 0	
+	if (driveForward == 0 && driveReverse == 0 && turnLeft == 1 && turnRight == 0) {
+		yawMagnitude = -3000;
+//		yawMagnitude = -2500;
+		stationaryFlag = 0;
+	} else if (driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 1) {
+		yawMagnitude = 3000;
+//		yawMagnitude = 2500;
+		stationaryFlag = 0;
+	} else if (driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 0) {
+		yawMagnitude = 0;
+		
+		if (velocityUpdatedMovement == 0) {
+			++stationaryFlag;
+		}
+	}
+	
+//	printf("stationaryFlag: %u\r\n", stationaryFlag);
+	
+	/* INACTIVITY_CONDITION = 1000, 10ms * 1000 = 10000 ms = 10 secs (INACTIVITY TIME OUT) */
+	if ((velocityUpdatedMovement == 0) && (yawMagnitude == 0) && (stationaryFlag >= INACTIVITY_CONDITION)) {
+		/* Inactivity condition is triggered, stationary spin */
+		yawMagnitude = -1000;
+	}
+	
+	yawError = gyroZ - yawSetpoint;
+	
+	yawPwm = Kp * yawError;
+	
+	yawPwm += yawMagnitude;
+	
+#endif
+	
+	return (int)yawPwm;
+}
