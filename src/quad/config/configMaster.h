@@ -21,6 +21,8 @@
 #include "oled.h"
 #include "button.h"
 #include "ultrasound_hcsr04.h"
+#include "adc.h"
+#include "vnh5019CurrentSensing.h"
 
 typedef struct master_s {
 	uint8_t version;
@@ -101,6 +103,12 @@ typedef struct master_s {
 #ifdef BLACKBOX
 	blackboxConfig_t blackboxConfig;
 #endif
+
+#ifdef USE_ADC
+	adcConfig_t adcConfig;
+#endif
+
+	motorCurrentMeterConfig_t motorCurrentMeterConfig;
 	
 	profile_t profile[MAX_PROFILE_COUNT];
 	uint8_t current_profile_index;
@@ -118,9 +126,10 @@ typedef struct master_s {
 }master_t;
 
 extern master_t masterConfig;
-extern profile_t *currentProfile;
-extern controlRateConfig_t *currentControlRateProfile;
+//extern profile_t *currentProfile;
+//extern controlRateConfig_t *currentControlRateProfile;
 
+#define AdcConfig(x)						(&masterConfig.adcConfig)
 #define LedStatusConfig(x)					(&masterConfig.ledStatusConfig)
 #define LedTimerConfig(x)					(&masterConfig.ledTimerConfig)
 #define BeeperConfig(x)						(&masterConfig.beeperConfig)
@@ -146,5 +155,6 @@ extern controlRateConfig_t *currentControlRateProfile;
 #define PidConfig(x)                        (&masterConfig.pidConfig)
 #define BoardAlignment(x)					(&masterConfig.boardAlignment)
 #define ThrottleCorrectionConfig(x)			(&masterConfig.throttleCorrectionConfig)
+#define MotorCurrentMeterConfig(x)			(&masterConfig.motorCurrentMeterConfig)
 
 #endif	// __CONFIGMASTER_H

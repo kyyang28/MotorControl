@@ -31,7 +31,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 /* Uncomment the line below to enable peripheral header file inclusion */
-//#include "stm32f4xx_adc.h"
 //#include "stm32f4xx_crc.h"
 //#include "stm32f4xx_dbgmcu.h"
 //#include "stm32f4xx_i2c.h"			// never uncomment this line, already used software i2c
@@ -39,6 +38,7 @@
 //#include "stm32f4xx_rtc.h"
 //#include "stm32f4xx_sdio.h"
 //#include "stm32f4xx_wwdg.h"
+#include "stm32f4xx_adc.h"
 #include "stm32f4xx_tim.h"
 #include "stm32f4xx_spi.h"
 #include "stm32f4xx_dma.h"

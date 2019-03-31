@@ -62,6 +62,7 @@
 #include "imu.h"
 #include "oled.h"
 //#include "ultrasound.h"
+#include "adc.h"
 
 
 typedef enum {
@@ -90,7 +91,8 @@ int fputc(int ch, FILE *f)
     /* Send byte to USART */
 //	gpsWrite(ch);
 //	rxSerial1TestWrite(ch);
-	rxSerial3TestWrite(ch);
+//	rxSerial3TestWrite(ch);
+	bluetoothSerial6Write(ch);
     
     /* If everything is OK, you have to return character written */
     return ch;
@@ -106,7 +108,8 @@ int fputc(int ch, FILE *f)
 
 PUTCHAR_PROTOTYPE
 {
-	rxSerial3TestWrite(ch);
+//	rxSerial3TestWrite(ch);
+	bluetoothSerial6Write(ch);
 	return ch;
 }
 #endif
@@ -140,7 +143,7 @@ int main(void)
 	
 	/* Initialise bluetooth serial */
 	bluetoothSerial6Init();
-	
+
 	/* Write masterConfig info into FLASH EEPROM
 	 *
 	 * TODO: (ISSUE) After calling writeEEPROM() function, the program will not be running when STM32F4 board is powered on
@@ -181,7 +184,7 @@ int main(void)
 	timerInit();					// reinitialise the LED IO configuration to timer AF_PP if USE_LEDTIMER has been set.
 									// INFO: To use NORMAL LEDs, turn off the USE_LEDTIMER micro in target.h
 
-	/* DC brushed motor init, timer ARR = 7200  */
+	/* DC brushed motor init, timer ARR = 8400  */
 	dcBrushedMotorInit(DCBrushedMotorConfig());
 
 	/* Initialise Timer Encoder Interface Mode for Incremental Encoders attached on DC Brushed Motors */
@@ -228,6 +231,10 @@ int main(void)
 //#endif
 #endif
 	
+#ifdef USE_ADC
+	adcInit(AdcConfig());
+#endif
+	
 	systemState |= SYSTEM_STATE_SENSORS_READY;
 	
 	/* OLED init */
@@ -243,6 +250,9 @@ int main(void)
 	/* set accelerometer calibration cycles */
 	accSetCalibrationCycles(CALIBRATING_ACC_CYCLES);
 #endif
+
+	/* Initialise Motor Current Meter */
+//	motorCurrentMeterInit(MotorCurrentMeterConfig());
 	
 	/* Latch active features again as some of them are modified by init() */
 	latchActiveFeatures();

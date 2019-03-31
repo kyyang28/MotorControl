@@ -20,6 +20,7 @@
 #include "rx_pwm.h"
 #include "oled.h"
 #include "ultrasound.h"
+#include "vnh5019CurrentSensing.h"
 
 //#define TASKS_LEDS_TESTING
 
@@ -30,9 +31,11 @@
 #define TASK_PERIOD_MS(ms)              ((ms) * 1000)
 #define TASK_PERIOD_US(us)              (us)
 
-int Encoder1, Encoder2;
+#define CURRENT_INTERVAL				(6 * 3500)				// in microseconds
+
+int LeftEncoder, RightEncoder;
 int stabilisePwmVal, velocityPwmVal, yawPwmVal;
-int motor1Pwm, motor2Pwm;
+int leftMotorPwm, rightMotorPwm;
 int yawMagnitude = 95;
 //int yawMagnitude = 45;
 uint32_t stationaryFlag = 0;
@@ -60,13 +63,15 @@ static int32_t ultrasound6DistanceData = ULTRASOUND_OUT_OF_RANGE;
 static void taskUpdateAccelerometer(timeUs_t currentTimeUs);
 static void taskMotorEncoder(timeUs_t currentTimeUs);
 static void taskUpdateGyro(timeUs_t currentTimeUs);
-static void taskOLEDDisplay(timeUs_t currentTimeUs);
-static void taskUltrasound1ReadData(timeUs_t currentTimeUs);
-static void taskUltrasound2ReadData(timeUs_t currentTimeUs);
-static void taskUltrasound3ReadData(timeUs_t currentTimeUs);
-static void taskUltrasound4ReadData(timeUs_t currentTimeUs);
-static void taskUltrasound5ReadData(timeUs_t currentTimeUs);
-static void taskUltrasound6ReadData(timeUs_t currentTimeUs);
+//static void taskOLEDDisplay(timeUs_t currentTimeUs);
+//static void taskUltrasound1ReadData(timeUs_t currentTimeUs);
+//static void taskUltrasound2ReadData(timeUs_t currentTimeUs);
+//static void taskUltrasound3ReadData(timeUs_t currentTimeUs);
+//static void taskUltrasound4ReadData(timeUs_t currentTimeUs);
+//static void taskUltrasound5ReadData(timeUs_t currentTimeUs);
+//static void taskUltrasound6ReadData(timeUs_t currentTimeUs);
+static void taskLeftMotorCurrentMeter(timeUs_t currentTimeUs);
+static void taskRightMotorCurrentMeter(timeUs_t currentTimeUs);
 //static void taskBluetoothReceive(timeUs_t currentTimeUs);
 
 /* Tasks initialisation */
@@ -107,13 +112,14 @@ cfTask_t cfTasks[TASK_COUNT] = {
         .staticPriority = TASK_PRIORITY_REALTIME,			// TASK_PRIORITY_REALTIME = 6
     },
 	
-	[TASK_OLEDDISPLAY] = {
-		.taskName = "OLED_DISPLAY",
-		.taskFunc = taskOLEDDisplay,
-		.desiredPeriod = TASK_PERIOD_HZ(20),				// 1000000 / 20 = 50000 us = 50 ms
-		.staticPriority = TASK_PRIORITY_MEDIUM,				// TASK_PRIORITY_MEDIUM = 3
-	},
+//	[TASK_OLEDDISPLAY] = {
+//		.taskName = "OLED_DISPLAY",
+//		.taskFunc = taskOLEDDisplay,
+//		.desiredPeriod = TASK_PERIOD_HZ(20),				// 1000000 / 20 = 50000 us = 50 ms
+//		.staticPriority = TASK_PRIORITY_MEDIUM,				// TASK_PRIORITY_MEDIUM = 3
+//	},
 
+#if 0
 #if defined(ULTRASOUND)	
 	[TASK_ULTRASOUND1_UPDATE] = {
 		.taskName = "ULTRASOUND1_UPDATE",
@@ -193,7 +199,24 @@ cfTask_t cfTasks[TASK_COUNT] = {
 		.desiredPeriod = TASK_PERIOD_HZ(40),				// 1000000 / 40 = 25000 us = 25 ms = 40 Hz from HCSR-04 datasheet
 		.staticPriority = TASK_PRIORITY_MEDIUM,				// TASK_PRIORITY_MEDIUM = 1
 	},
-#endif	
+#endif
+#endif
+	
+#if defined(USE_ADC)
+	[TASK_LEFT_MOTOR_CURRENT_METER] = {
+		.taskName = "LEFT_MOTOR_CURRENT_METER",
+		.taskFunc = taskLeftMotorCurrentMeter,
+		.desiredPeriod = TASK_PERIOD_HZ(50),				// 50 Hz = 1000000 / 50 = 20000 us = 20 ms
+		.staticPriority = TASK_PRIORITY_MEDIUM,
+	},
+	
+	[TASK_RIGHT_MOTOR_CURRENT_METER] = {
+		.taskName = "RIGHT_MOTOR_CURRENT_METER",
+		.taskFunc = taskRightMotorCurrentMeter,
+		.desiredPeriod = TASK_PERIOD_HZ(50),				// 50 Hz = 1000000 / 50 = 20000 us = 20 ms
+		.staticPriority = TASK_PRIORITY_MEDIUM,
+	},
+#endif
 };
 
 static void taskUpdateGyro(timeUs_t currentTimeUs)
@@ -207,83 +230,6 @@ static void taskUpdateAccelerometer(timeUs_t currentTimeUs)
 //	UNUSED(currentTimeUs);
 	
 	accUpdate(currentTimeUs, &AccelerometerConfig()->accelerometerTrims);
-}
-
-static uint8_t buttonModeSwitchHandler(void)
-{
-	static uint16_t buttonFlag, buttonCount, buttonOnceCount, longPressCount;
-
-	IO_t modeSwitchBtnPin = IOGetByTag(ButtonModeSwitchConfig()->btnPin);
-	
-	if ((IORead(modeSwitchBtnPin) == true)) {
-		longPressCount++;
-		
-		if (buttonFlag == 0) {
-			buttonFlag = 1;
-		}
-		
-//		printf("longPressCount: %u\r\n", longPressCount);
-		
-		/* Check if button is pressed for at least 2 secs */
-		if (longPressCount > 200) {
-			longPressCount = 0;
-			return 2;
-		}
-	} else {
-		buttonFlag = 0;
-		buttonCount = 0;
-	}
-	
-//	printf("buttonFlag: %u\r\n", buttonFlag);		// buttonFlag == 1 if button is pressed, otherwise 0
-//	printf("buttonCount: %u\r\n", buttonCount);		// buttonCount == 1 if button is pressed, otherwise 0
-	
-	if (buttonCount == 0) {
-		if (buttonFlag == 1) {
-			buttonOnceCount++;
-			buttonCount = 1;
-		}
-		
-		/* 
-		 * buttonTwiceCount is 1 if button is pressed once.
-		 * buttonTwiceCount is 2 if button is pressed twice.
-		 */
-//		printf("buttonOnceCount: %u\r\n", buttonOnceCount);
-		
-		if (buttonOnceCount == 1) {
-			buttonOnceCount = 0;
-			return 1;				// handling single click
-		}
-		
-//		if (buttonTwiceCount == 2) {
-//			buttonTwiceCount = 0;
-//			buttonOnceCount = 0;
-////			printf("%s, %d\r\n", __FUNCTION__, __LINE__);			
-//			return 2;			// handling double clicks
-//		}
-	}
-	
-	return 0;
-}
-
-static void buttonModeSwitchPollOps(button_t *buttonModeSwitchConfig)
-{
-	uint8_t res;
-	
-	res = buttonModeSwitchHandler();
-	
-//	printf("button click: %u\r\n", res);
-
-	/* Activate/Deactivate balancing routine by clicking button once */
-	if (res == 1) {
-		stopFlag = !stopFlag;
-//		printf("stopFlag: %d\r\n", stopFlag);
-	}
-	
-	/* Case for long pressing */
-	if (res == 2) {
-//	if ((stopFlag == true) && (res == 2)) {
-		isCollisionAvoidanceModeActivated = !isCollisionAvoidanceModeActivated;
-	}
 }
 
 /* Encoder speed values */
@@ -352,60 +298,23 @@ pwm += Kp[e(k) - e(k-1)] + Ki * e(k)
 **************************************************************************/
 int Incremental_PIController(int Encoder, int Target)
 {
-	float Kp = 80, Ki = 0.2;
+	float Kp = 80, Ki = 1.2;
 //	float updatedPWM;
 	static int error, updatedPWM, prev_error;
 //	static int error, prev_error;
 //	printf("Encoder: %d\r\n", Encoder);
-	error = Encoder - Target;                		// 计算偏差
+	error = Encoder - Target;                					// Calculate the error
 //	printf("Bias: %d\r\n", Bias);
-	updatedPWM += Kp * (error - prev_error) + Ki * error;   	// 增量式PI控制器
+	updatedPWM += Kp * (error - prev_error) + Ki * error;   	// Incremental PI Controller
 //	printf("Pwm: %d\r\n", Pwm);
-	prev_error = error;	                   			// Store previous bias
-	return updatedPWM;                         			// Return PID PWM value
+	prev_error = error;	                   						// Store previous bias
+	return updatedPWM;                         					// Return PID PWM value
 }
-
 
 //#define DC_BRUSHED_MOTOR1_AIN1	PB13
 //#define DC_BRUSHED_MOTOR1_AIN2	PB12
 //#define DC_BRUSHED_MOTOR2_BIN1	PB14
 //#define DC_BRUSHED_MOTOR2_BIN2	PB15
-
-bool activateMotors(int pitchAngle)
-{
-	bool isMotorEnabled = true;
-	
-//	printf("pitchAn7gle: %d\r\n", pitchAngle);
-
-	/* If external button is not pressed after powered up (i.e. balance mode is not turned on), 
-	 * pitchAngle is greater or less than 50 and -50, 
-	 * motor is not activated.
-	 *
-	 * then update the isMotorEnabled to false (i.e. deactivate the motors), otherwise, activate the motors
-	 */
-	if ((stopFlag == true) || (pitchAngle < -50) || (pitchAngle > 50) || (isMotorActivated == false)) {
-//		printf("motor stop!\r\n");
-		isMotorEnabled = false;			// deactivate motors
-	} else {
-		isMotorEnabled = true;			// activate motors
-	}
-	
-	return isMotorEnabled;
-}
-
-void deactivateMotors(void)
-{
-	IO_t l_AIN1 = IOGetByTag(DCBrushedMotorConfig()->AIN1);		// PE3
-	IO_t l_AIN2 = IOGetByTag(DCBrushedMotorConfig()->AIN2);		// PE4
-	IO_t l_BIN1 = IOGetByTag(DCBrushedMotorConfig()->BIN1);		// PC13
-	IO_t l_BIN2 = IOGetByTag(DCBrushedMotorConfig()->BIN2);		// PC15	
-
-	/* Disable two motors */
-	IOLo(l_AIN1);
-	IOLo(l_AIN2);
-	IOLo(l_BIN1);
-	IOLo(l_BIN2);
-}
 
 void updateMotorPwm(int *motorPwm1, int *motorPwm2)
 {
@@ -422,7 +331,7 @@ void updateMotorPwm(int *motorPwm1, int *motorPwm2)
 //		IOWrite(DCBrushedMotorConfig()->AIN2, false);			// set AIN2 to HIGH
 //		GPIOB->BSRR |= 1<<29;				// set AIN1 to LOW
 //		GPIOB->BSRR |= 1<<12;				// set AIN2 to HIGH
-#if 0
+#if 1
 		IOHi(l_AIN2);
 		IOLo(l_AIN1);
 #else
@@ -435,7 +344,7 @@ void updateMotorPwm(int *motorPwm1, int *motorPwm2)
 //		GPIOB->BSRR |= 1<<28;				// set AIN2 to LOW
 //		IOWrite(DCBrushedMotorConfig()->AIN1, false);			// set AIN1 to HIGH
 //		IOWrite(DCBrushedMotorConfig()->AIN2, true);			// clear AIN2 to LOW
-#if 0
+#if 1
 		IOHi(l_AIN1);
 		IOLo(l_AIN2);
 #else
@@ -450,284 +359,44 @@ void updateMotorPwm(int *motorPwm1, int *motorPwm2)
 //		IOLo(DCBrushedMotorConfig()->BIN2);
 //		IOHi(DCBrushedMotorConfig()->BIN1);
 //		printf("*motorPwm2: %d, %d\r\n", *motorPwm2, __LINE__);
+#if 0
+		IOHi(l_BIN2);
+		IOLo(l_BIN1);
+#else
 		IOHi(l_BIN1);
 		IOLo(l_BIN2);
+#endif		
 	} else {
 //		printf("*motorPwm2: %d, %d\r\n", *motorPwm2, __LINE__);
 //		IOLo(DCBrushedMotorConfig()->BIN1);
 //		IOHi(DCBrushedMotorConfig()->BIN2);
+#if 0
+		IOHi(l_BIN1);
+		IOLo(l_BIN2);
+#else
 		IOHi(l_BIN2);
 		IOLo(l_BIN1);
+#endif		
 	}
 		
 	pwmWriteDcBrushedMotor(1, ABS(*motorPwm2));	// 1 represents motor 2, write motor pwm value to motor 12 (PWMB)
 }
 
-static int stabilisationControlSBWMR(int pitchAngle, float gyroY)
-{
-	int errorAngle;
-	int Kp = 340;				// 500 * 0.7 = 350
-	float Kd = 45.0;			// 50 * 0.7 = 35
-//	float Kd = 31.8;			// 55 * 0.6 = 33
-	float stabilisePwm;
-	
-//	errorAngle = pitchAngle - 4;
-	errorAngle = pitchAngle - balanceSetpoint;
-	
-	stabilisePwm = Kp * errorAngle + Kd * gyroY;
-	
-	return (int)stabilisePwm;
-}
-
-static int velocityControlSBWMR(int leftEncoder, int rightEncoder)
-{
-	static float velocityPwm, encoderError, encoder, encoderIntegral;
-//	float Kp = 144.75;		// leftEncoder + rightEncoder with dividing by 2 (using TOP quadcopter landing plate)
-//	float Kp = 116.75;		// leftEncoder + rightEncoder with dividing by 2 (w/o using TOP quadcopter landing plate)
-	float Kp = 80.0;		// leftEncoder + rightEncoder w/o dividing by 2
-//	float Kp = 85.75;		// leftEncoder + rightEncoder w/o dividing by 2
-	float Ki = Kp / 200;
-	
-	if (driveForward == 1 && driveReverse == 0 && turnLeft == 0 && turnRight == 0) {
-//		printf("forward: %d, %d\r\n", leftEncoder, rightEncoder);
-		velocityUpdatedMovement = -70.0;			// negative value representing moving forward
-//		velocityUpdatedMovement = -50.0;			// negative value representing moving forward
-		stationaryFlag = 0;
-	} else if (driveForward == 0 && driveReverse == 1 && turnLeft == 0 && turnRight == 0) {
-//		printf("reverse: %d, %d\r\n", leftEncoder, rightEncoder);
-		velocityUpdatedMovement = 70.0;			// positive value representing moving backward
-//		velocityUpdatedMovement = 50.0;			// positive value representing moving backward
-		stationaryFlag = 0;
-	} else if (driveForward == 0 && driveReverse == 0 && turnLeft == 0 && turnRight == 0) {
-		velocityUpdatedMovement = 0;
-	}
-	
-//	printf("movement: %f\r\n", movement);
-	
-	encoderError = (leftEncoder + rightEncoder) - velocitySetpoint;		// velocitySetpoint is set to 0
-//	encoderError = (leftEncoder + rightEncoder) / 2 - velocitySetpoint;		// velocitySetpoint is set to 0
-	
-	/* Low pass filter */
-	encoder *= 0.7f;
-	encoder += encoderError * 0.3f;
-	
-	encoderIntegral += encoder;					// Get displacement of motor rotation by integrating encoder speed using 10ms period
-	
-	encoderIntegral = encoderIntegral - velocityUpdatedMovement;
-	
-	/* 4000 */
-	if (encoderIntegral > 8000) {
-		encoderIntegral = 8000;
-	}
-	
-	if (encoderIntegral < -8000) {
-		encoderIntegral = -8000;
-	}
-	
-	velocityPwm = Kp * encoder + Ki * encoderIntegral;
-	
-	if (!activateMotors(attitude.raw[Y])) {
-		encoderIntegral = 0;			// clear integral error when motor is deactivated
-	}
-	
-	return velocityPwm;
-}
-
-static int yawControlSBWMR(float gyroZ, int leftEncoder, int rightEncoder)
-{
-	static float yawError, yawPwm, encoderTmp1, yawCnt;
-	static float yawAdjust = 0.9f;
-
-	float Kp = 57.0f;
-	float Kd = 8.4f;
-
-	if (turnLeft == 1 || turnRight == 1) {
-
-//		if (turnLeft == 1) {
-//			printf("left: %d, %d\r\n", leftEncoder, rightEncoder);
-//		}else if (turnRight == 1) {
-//			printf("right: %d, %d\r\n", leftEncoder, rightEncoder);
-//		}
-		
-		if(++yawCnt == 1) {
-			encoderTmp1 = ABS(leftEncoder + rightEncoder);
-//			printf("encoderTmp1: %.4f\r\n", encoderTmp1);
-			yawAdjust = 50 / encoderTmp1;
-//			yawAdjust = encoderTmp2 / encoderTmp1;
-		}
-		
-//		printf("yawAdjust: %.4f\r\n", yawAdjust);
-
-#if 1
-		if (yawAdjust < 0.8f) {
-//		if (yawAdjust < 0.6) {
-			yawAdjust = 0.8f;
-		}
-		
-		if (yawAdjust > 2) {
-//		if (yawAdjust > 3) {
-			yawAdjust = 3;
-		}
-#endif	
-
-		stationaryFlag = 0;
-	} else {
-//		yawAdjust = 0.0f;
-		yawAdjust = 0.9f;
-//		yawError = 0.0f;
-		yawCnt = 0;
-		encoderTmp1 = 0;
-	}
-
-	if (1 == turnLeft) {
-		yawError -= yawAdjust;
-		stationaryFlag = 0;
-	} else if (1 == turnRight) {
-		yawError += yawAdjust;
-		stationaryFlag = 0;
-	} else {		
-		yawError = 0;
-	
-#if 0
-		stationaryFlag++;
-//		printf("Inactivate, %d\r\n", stationaryFlag);
-		if ((velocityUpdatedMovement == 0) && (stationaryFlag >= INACTIVITY_CONDITION)) {
-//			yawAdjust = 18.0f;
-//			yawError = yawAdjust;			// counter-clockwise yaw rotation
-			yawError = 18;					// counter-clockwise yaw rotation
-			yawMagnitude = 20;				// limit the yawing speed
-		} else {
-			yawError = 0;
-			yawMagnitude = 45;
-			yawAdjust = 0;
-		}
-#endif
-	}
-
-    if (yawError > yawMagnitude) {
-		yawError = yawMagnitude;
-	}
-
-	if (yawError < -yawMagnitude) {
-		yawError = -yawMagnitude;
-	}
-
-//	if (driveForward == 1 || driveReverse == 1) {
-//		Kd = 0.5;
-//	} else {
-//		Kd = 0;
-//	}
-
-	yawPwm = yawError * Kp + gyroZ * Kd;
-//	yawPwm = Kp * yawError + Kd * gyroZ;
-
-	return yawPwm;
-}
-
-bool liftUpSBWMR(float accZ, int16_t pitchAngle, int32_t leftEncoder, int32_t rightEncoder)
-{
-	static uint16_t condition, temp0, temp1, temp2;
-	
-	/* Condition 0: SBWMR is stationary */
-	if (condition == 0) {
-		if (ABS(leftEncoder) + ABS(rightEncoder) < 30) {
-			temp0++;
-		} else {
-			temp0 = 0;
-		}
-		
-		if (temp0 > 10) {
-//			printf("condition0-1\r\n");
-			condition = 1;
-			temp0 = 0;
-		}
-	}
-
-	/* SBWMR is lifted up at approximately ZERO degree of pitch angle */
-	if (condition == 1) {
-		/* Time out (200 * 10ms = 2000 ms = 2 secs), no action */
-		if (++temp1 > 500) {
-			condition = 0;
-			temp1 = 0;
-		}
-		
-		/* Lift up rapidly and closed to ZERO degree of pitch angle
-		 *
-		 * 5000 is based on the current setup of accelerometer. the z-axis of acc is roughly 3358,
-		 * when lift up rapidly, the value is changed to above 5000
-		 */
-		if (accZ > 5000 && (pitchAngle > (-20 + balanceSetpoint) && pitchAngle < (20 + balanceSetpoint))) {
-//			printf("condition1-2\r\n");
-			condition = 2;
-		}
-	}
-	
-	/* SBWMR's motors are spinning forever due to the positive feedback */
-	if (condition == 2) {
-		/* Time out (100 * 10ms = 1000ms = 1 sec), no action */
-		if (++temp2 > 500) {
-			condition = 0;
-			temp2 = 0;
-		}
-		
-		if (ABS(leftEncoder + rightEncoder) > 135) {
-//			printf("condition2\r\n");
-			condition = 0;
-			return true;					// deactivate motors
-		}
-	}
-	
-	return false;							// activate motors
-}
-
-bool layDownSBWMR(int16_t pitchAngle, int32_t leftEncoder, int32_t rightEncoder)
-{
-
-	static uint16_t condition, temp;
-	
-	if (isMotorActivated) {
-		return false;
-	}
-	
-	
-	if (condition == 0) {
-		/* SBWMR's pitch angle is within -10 to 10 degrees and motors are not spinning (encoders are all ZEROs) */
-		if ((pitchAngle > (-10 + balanceSetpoint) && pitchAngle < (10 + balanceSetpoint)) && leftEncoder == 0 && rightEncoder == 0) {
-			condition = 1;
-		}
-	}
-	
-	if (condition == 1) {
-		/* Time out 500 * 10ms = 5000 ms = 5 secs */
-		if (++temp > 500) {
-			condition = 0;
-			temp = 0;
-		}
-		
-		/* SBWMR is pushed to slide */
-		if (((leftEncoder > 3 && leftEncoder < 60) && (rightEncoder > 3 && rightEncoder < 60)) || 
-			((leftEncoder < -3 && leftEncoder > -60) && (rightEncoder < -3 && rightEncoder > -60))) {
-			condition = 0;
-			return true;
-				
-		}
-	}
-	
-	return false;
-}
-
-//int Target_velocity = 2;
+int LeftMotorTargetVelocity = 10;
+int RightMotorTargetVelocity = 10;
 //int PWMMotor1 = -1000;                 // Motor PWM value
 //int PWMMotor2 = -1000;                 // Motor PWM value
+//int leftMotorPwm = -200;
+//int rightMotorPwm = -200;
 
 static void taskMotorEncoder(timeUs_t currentTimeUs)
 {	
 //	printf("currentTimeUs: %u\r\n", currentTimeUs);
 	
-	Encoder1 = Read_Encoder(2);		// 2: TIM2, left encoder
-//	Encoder2 = Read_Encoder(4);		// 4: TIM4, right encoder
+	LeftEncoder = Read_Encoder(2);		// 2: TIM2, left encoder
+	RightEncoder = Read_Encoder(4);		// 4: TIM4, right encoder
 	
-//	printf("%d, %d\r\n", Encoder1, Encoder2);
+//	printf("%d, %d\r\n", LeftEncoder, RightEncoder);
 	
 	LED6_ON;
 	
@@ -743,218 +412,62 @@ static void taskMotorEncoder(timeUs_t currentTimeUs)
 //        printf("%d\r\n", acc.accSmooth[Z]);
     }
 #endif
-	
-	/* Check if balance or obstacle avoidance modes are activated via external button */
-//	buttonModeSwitchPollOps(ButtonModeSwitchConfig());
-	
-//	printf("forward: %u\t back: %u\t left: %u\t right: %u\r\n", driveForward, driveReverse, turnLeft, turnRight);
-	
+		
 ////	if ((gyro.dev.mpuDetectionResult.sensor == MPU_9250_SPI) && gyro.dev.calibrationFlag) {
 		
 //        printf("%.4f\t%.4f\t%d\r\n", gyro.gyroADCf[Y], gyro.gyroADCf[Z], attitude.raw[Y]);
-		
-		/* Balance control */
-////		stabilisePwmVal = stabilisationControlSBWMR(attitude.raw[Y], gyro.gyroADCf[Y]);
+				
+		leftMotorPwm = Incremental_PIController(LeftEncoder, LeftMotorTargetVelocity);
+		rightMotorPwm = Incremental_PIController(RightEncoder, RightMotorTargetVelocity);
 
-		/* Velocity control */
-////		velocityPwmVal = velocityControlSBWMR(Encoder1, Encoder2);
-		
-		/* Yaw control */
-////		yawPwmVal = yawControlSBWMR(gyro.gyroADCf[Z], Encoder1, Encoder2);
-		
-////		motor1Pwm = stabilisePwmVal - velocityPwmVal + yawPwmVal;
-////		motor2Pwm = stabilisePwmVal - velocityPwmVal - yawPwmVal;
-		motor1Pwm = -500;
-		motor2Pwm = -500;
-		
-//		motor1Pwm = Incremental_PIController(Encoder1, Target_velocity);		// Motor 2
-////		PWMMotor2 = Incremental_PIController(Encoder2, Target_velocity);		// Motor 1
-//		printf("Motor: %d\r\n", Motor1);
+//		leftMotorPwm = -1680;			// 1680 / 8400 = 0.2 (20% duty cycle)
+//		rightMotorPwm = 1680;
+//		leftMotorPwm = -200;
+//		rightMotorPwm = 200;
 
-		limitMotorPwm(&motor1Pwm, &motor2Pwm);
-
-#if 0
-		/* Check if the SBWMR is lifted up or not, if so, update the isMotorActivated to false (deactivate the motors) */
-		if (liftUpSBWMR(acc.accSmooth[Z], attitude.raw[Y], Encoder1, Encoder2)) {
-//			printf("%s, %d\r\n", __FUNCTION__, __LINE__);
-			isMotorActivated = false;				// deactivate motors
-		}
+		/* Motor PWM boundary limitation */
+		limitMotorPwm(&leftMotorPwm, &rightMotorPwm);
 		
-		/* Check if the SBWMR is put down or not, if so, update the isMotorActivated to true (activate the motors) */
-		if (layDownSBWMR(attitude.raw[Y], Encoder1, Encoder2)) {
-			isMotorActivated = true;
-		}
-		
-		if (activateMotors(attitude.raw[Y])) {
-			updateMotorPwm(&motor1Pwm, &motor2Pwm);
-		} else {
-			deactivateMotors();
-		}
-#endif
-		
-		updateMotorPwm(&motor1Pwm, &motor2Pwm);
+		updateMotorPwm(&leftMotorPwm, &rightMotorPwm);
 //	}
-	
-//	printf("Encoder1: %d\r\n", Encoder1);
-//	printf("Encoder2: %d\r\n", Encoder2);
-	printf("Motor1 pwm: %d\r\n", motor1Pwm);
-//	printf("Motor2 pwm: %d\r\n", PWMMotor2);
+
+	printf("%u,%d,%d,%d,%d,%d,%d\r\n", currentTimeUs, LeftEncoder, ABS(leftMotorPwm), (int32_t)round(filteredLeftMotorCurrentMeterValue), 
+					RightEncoder, ABS(rightMotorPwm), (int32_t)round(filteredLeftMotorCurrentMeterValue));
+		
+//	printf("(LeftEncoder, LeftMotor_PWM) = (%d, %d)\r\n", LeftEncoder, leftMotorPwm);
+//	printf("(RightEncoder, RightMotor_PWM) = (%d, %d)\r\n", RightEncoder, rightMotorPwm);
 }
 
-static void taskUltrasound1ReadData(timeUs_t currentTimeUs)
-{	
-	ultrasound1DistanceData = ultrasound1Read();
-	
-//	printf("d1: %d\r\n", ultrasound1DistanceData);
-}
-
-static void taskUltrasound2ReadData(timeUs_t currentTimeUs)
-{	
-	ultrasound2DistanceData = ultrasound2Read();
-	
-//	printf("d2: %d\r\n", ultrasound2DistanceData);
-}
-
-static void taskUltrasound3ReadData(timeUs_t currentTimeUs)
-{	
-	ultrasound3DistanceData = ultrasound3Read();
-	
-//	printf("d3: %d\r\n", ultrasound3DistanceData);
-}
-
-static void taskUltrasound4ReadData(timeUs_t currentTimeUs)
-{	
-	ultrasound4DistanceData = ultrasound4Read();
-	
-//	printf("d4: %d\r\n", ultrasound4DistanceData);
-}
-
-static void taskUltrasound5ReadData(timeUs_t currentTimeUs)
-{	
-	ultrasound5DistanceData = ultrasound5Read();
-	
-//	printf("d5: %d\r\n", ultrasound5DistanceData);
-}
-
-static void taskUltrasound6ReadData(timeUs_t currentTimeUs)
-{	
-	ultrasound6DistanceData = ultrasound6Read();
-	
-//	printf("d6: %d\r\n", ultrasound6DistanceData);
-}
-
-static void taskOLEDDisplay(timeUs_t currentTimeUs)
+static void taskLeftMotorCurrentMeter(timeUs_t currentTimeUs)
 {
-	static bool switchFromOADisplayFlag = false;
-
-	UNUSED(currentTimeUs);
-	
-	/* +----------- Display SBWMR modes (Normal and Obstacle Avoidance) -------------+ */
-//	OLED_ShowString(0, 0, "M: ");
-	
-	if (isCollisionAvoidanceModeActivated == true) {
-		OLED_ShowString(0, 0, "  OA   ");
-		switchFromOADisplayFlag = true;
-	} else {
-//		printf("flag: %d\r\n", switchFromOADisplayFlag);
-		if (switchFromOADisplayFlag == true) {
-//			OLED_ShowString(30, 0, "      ");
-//			OLED_ShowString(80, 0, "     ");
-			switchFromOADisplayFlag = false;
-		} else {
-			OLED_ShowString(00, 0, " Normal");
+	if (feature(FEATURE_CURRENT_METER)) {
+		static uint32_t motorCurrentLastRecorded = 0;
+		const int32_t motorCurrentSinceLastRecorded = cmp32(currentTimeUs, motorCurrentLastRecorded);
+//		printf("motorCurrentSinceLastRecorded: %d\r\n", motorCurrentSinceLastRecorded);
+		
+		/* taskMotorCurrentMeter period is 20 ms, CURRENT_INTERVAL = 21 ms, motor current sensing process is updated every 40 ms (20 ms * 2) */
+		if (motorCurrentSinceLastRecorded >= CURRENT_INTERVAL) {
+			motorCurrentLastRecorded = currentTimeUs;
+//			printf("curr: %d, interval: %u\r\n", motorCurrentSinceLastRecorded, CURRENT_INTERVAL);
+			updateVNH5019LeftMotorCurrentSensor(motorCurrentSinceLastRecorded);
 		}
 	}
-	
-	/* +------------------- Display temperature value -------------------+ */
-//	printf("temp: %.4f\r\n", temperatureData);
-//	OLED_ShowString(00, 10, "Temp: ");
-//	OLED_ShowNumber(46, 10, (int)temperatureData, 2, 12);		// display temperature integer part
-//	OLED_ShowString(59, 10, ".");
-//	OLED_ShowNumber(68, 10, (int)((round(temperatureData * 100) / 100 - (int)temperatureData) * 100), 2, 12);		// display temperature integer part
-//	OLED_ShowString(85, 10, "`C");
+}
 
-//	OLED_ShowString(00, 00, "T: ");
-	OLED_ShowNumber(66, 00, (int)temperatureData, 2, 12);		// display temperature integer part
-	OLED_ShowString(79, 00, ".");
-	OLED_ShowNumber(88, 00, (int)((round(temperatureData * 100) / 100 - (int)temperatureData) * 100), 2, 12);		// display temperature integer part
-	OLED_ShowString(105, 00, "`C");
-
-	/* +---------------------------- Display Pitch angle -----------------------------+ */
-	OLED_ShowString(0, 10, "P/Y: ");
-	
-	/* Display Euler Pitch angle */
-	if (attitude.raw[Y] < 0) {
-		OLED_ShowString(40, 10, "-");
-		OLED_ShowNumber(45, 10, -attitude.raw[Y], 3, 12);
-//		OLED_ShowString(80, 10, "-");
-//		OLED_ShowNumber(95, 10, -attitude.raw[Y], 3, 12);
-//		OLED_ShowNumber(45, 10, attitude.raw[Y] + 360, 3, 12);
-	} else {
-		OLED_ShowString(40, 10, "+");
-		OLED_ShowNumber(45, 10, attitude.raw[Y], 3, 12);		
-//		OLED_ShowString(80, 10, "+");
-//		OLED_ShowNumber(95, 10, attitude.raw[Y], 3, 12);		
-//		OLED_ShowNumber(45, 10, attitude.raw[Y], 3, 12);
-	}
-
-	/* Display Euler Yaw angle */
-	if (attitude.raw[Z] < 0) {
-//		OLED_ShowString(80, 10, "-");
-		OLED_ShowNumber(85, 10, attitude.raw[Z] + 360, 3, 12);
-	} else {
-//		OLED_ShowString(80, 10, "+");
-		OLED_ShowNumber(85, 10, attitude.raw[Z], 3, 12);		
-	}
+static void taskRightMotorCurrentMeter(timeUs_t currentTimeUs)
+{
+	if (feature(FEATURE_CURRENT_METER)) {
+		static uint32_t motorCurrentLastRecorded = 0;
+		const int32_t motorCurrentSinceLastRecorded = cmp32(currentTimeUs, motorCurrentLastRecorded);
+//		printf("motorCurrentSinceLastRecorded: %d\r\n", motorCurrentSinceLastRecorded);
 		
-	/* +------------------- Display encoder1 (left encoder) value -------------------+ */
-	OLED_ShowString(00, 20, "LeftEnco: ");
-	
-	if (Encoder1 < 0) {
-		OLED_ShowString(80, 20, "-");
-		OLED_ShowNumber(95, 20, -Encoder1, 3, 12);
-	} else {
-		OLED_ShowString(80, 20, "+");
-		OLED_ShowNumber(95, 20, Encoder1, 3, 12);
+		/* taskMotorCurrentMeter period is 20 ms, CURRENT_INTERVAL = 21 ms, motor current sensing process is updated every 40 ms (20 ms * 2) */
+		if (motorCurrentSinceLastRecorded >= CURRENT_INTERVAL) {
+			motorCurrentLastRecorded = currentTimeUs;
+//			printf("curr: %d, interval: %u\r\n", motorCurrentSinceLastRecorded, CURRENT_INTERVAL);
+			updateVNH5019RightMotorCurrentSensor(motorCurrentSinceLastRecorded);
+		}
 	}
-	
-	/* +------------------- Display encoder2 (right encoder) value -------------------+ */
-	OLED_ShowString(00, 30, "RightEnco: ");
-	
-	if (Encoder2 < 0) {
-		OLED_ShowString(80, 30, "-");
-		OLED_ShowNumber(95, 30, -Encoder2, 3, 12);
-	} else {
-		OLED_ShowString(80, 30, "+");
-		OLED_ShowNumber(95, 30, Encoder2, 3, 12);
-	}
-
-	/* +---------------------------- Display ultrasound data -----------------------------+ */
-//	if (ultrasound1DistanceData < 0) {
-//		OLED_ShowString(00, 50, "-");
-//	} else {
-//		OLED_ShowString(00, 50, "");
-//	}
-	
-	/* Display ultrasound sensor data 1 */
-	OLED_ShowNumber(10, 40, ultrasound1DistanceData, 3, 12);
-
-	/* Display ultrasound sensor data 2 */
-	OLED_ShowNumber(55, 40, ultrasound2DistanceData, 3, 12);
-
-	/* Display ultrasound sensor data 3 */
-	OLED_ShowNumber(95, 40, ultrasound3DistanceData, 3, 12);
-
-	/* Display ultrasound sensor data 4 */
-	OLED_ShowNumber(10, 50, ultrasound4DistanceData, 3, 12);
-
-	/* Display ultrasound sensor data 5 */
-	OLED_ShowNumber(55, 50, ultrasound5DistanceData, 3, 12);
-
-	/* Display ultrasound sensor data 6 */
-	OLED_ShowNumber(95, 50, ultrasound6DistanceData, 3, 12);
-
-	OLED_Refresh_Gram();
 }
 
 void fcTasksInit(void)
@@ -977,42 +490,6 @@ void fcTasksInit(void)
 	/* Enable ATTITUDE TASK (Data fusion of Euler angles (Roll, Pitch, and Yaw angles)) */
 //	setTaskEnabled(TASK_ATTITUDE, sensors(SENSOR_ACC));
 
-	/* Enable OLED display TASK */
-//	setTaskEnabled(TASK_OLEDDISPLAY, true);
-
-	/* Enable ultrasound1 update TASK (Repeated sending startup sequence) */
-//	setTaskEnabled(TASK_ULTRASOUND1_UPDATE, true);
-
-	/* Enable ultrasound1 data collection TASK */
-//	setTaskEnabled(TASK_ULTRASOUND1_READDATA, true);
-	
-	/* Enable ultrasound2 update TASK (Repeated sending startup sequence) */
-//	setTaskEnabled(TASK_ULTRASOUND2_UPDATE, true);
-
-	/* Enable ultrasound2 data collection TASK */
-//	setTaskEnabled(TASK_ULTRASOUND2_READDATA, true);
-
-	/* Enable ultrasound3 update TASK (Repeated sending startup sequence) */
-//	setTaskEnabled(TASK_ULTRASOUND3_UPDATE, true);
-
-	/* Enable ultrasound3 data collection TASK */
-//	setTaskEnabled(TASK_ULTRASOUND3_READDATA, true);
-
-	/* Enable ultrasound4 update TASK (Repeated sending startup sequence) */
-//	setTaskEnabled(TASK_ULTRASOUND4_UPDATE, true);
-
-	/* Enable ultrasound4 data collection TASK */
-//	setTaskEnabled(TASK_ULTRASOUND4_READDATA, true);
-
-	/* Enable ultrasound5 update TASK (Repeated sending startup sequence) */
-//	setTaskEnabled(TASK_ULTRASOUND5_UPDATE, true);
-
-	/* Enable ultrasound5 data collection TASK */
-//	setTaskEnabled(TASK_ULTRASOUND5_READDATA, true);
-
-	/* Enable ultrasound6 update TASK (Repeated sending startup sequence) */
-//	setTaskEnabled(TASK_ULTRASOUND6_UPDATE, true);
-
-	/* Enable ultrasound6 data collection TASK */
-//	setTaskEnabled(TASK_ULTRASOUND6_READDATA, true);
+	setTaskEnabled(TASK_LEFT_MOTOR_CURRENT_METER, true);
+	setTaskEnabled(TASK_RIGHT_MOTOR_CURRENT_METER, true);
 }

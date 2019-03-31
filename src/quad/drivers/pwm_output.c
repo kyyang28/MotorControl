@@ -10,7 +10,7 @@ static IO_t motorDriverBIN1;
 static IO_t motorDriverBIN2;
 static pwmOutputPort_t dcBrushedMotors[MAX_SUPPORTED_DC_BRUSHED_MOTORS_FOR_SBWMR];
 
-#define TIMER_ARR				7200
+#define TIMER_ARR				8400
 
 bool pwmMotorsEnabled = false;
 
@@ -84,7 +84,7 @@ void dcBrushedMotorInit(const dcBrushedMotorConfig_t *dcBrushedMotorConfig)
 		IOConfigGPIOAF(PWM, IOCFG_AF_PP, timerHardware->alternateFunction);
 
 		/* Time base structure configuration */
-		configTimeBase4Encoder(timerHardware->tim, TIMER_ARR, 0);	// TIMER_ARR = 7200 - 1 = 7199, PSC = 0
+		configTimeBase4Encoder(timerHardware->tim, TIMER_ARR, 0);	// TIMER_ARR = 8400 - 1 = 7199, PSC = 0 for VNH5019 Motor Driver
 		
 		/* Output compare PWM generator configuration */
 		pwmOCConfig(timerHardware->tim, timerHardware->channel, 0, timerHardware->output);

@@ -18,8 +18,9 @@
 .\objects\exti.o: .\src\lib\CMSIS\CM4\CoreSupport\core_cmSimd.h
 .\objects\exti.o: .\src\quad\target\13-PID\system_stm32f4xx.h
 .\objects\exti.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx_conf.h
-.\objects\exti.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
+.\objects\exti.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_adc.h
 .\objects\exti.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx.h
+.\objects\exti.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
 .\objects\exti.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_spi.h
 .\objects\exti.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_dma.h
 .\objects\exti.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_usart.h

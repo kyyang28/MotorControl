@@ -8,9 +8,10 @@
 .\objects\stm32f4xx_tim.o: .\src\lib\CMSIS\CM4\CoreSupport\core_cmSimd.h
 .\objects\stm32f4xx_tim.o: .\src\quad\target\13-PID\system_stm32f4xx.h
 .\objects\stm32f4xx_tim.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx_conf.h
+.\objects\stm32f4xx_tim.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_adc.h
+.\objects\stm32f4xx_tim.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx.h
 .\objects\stm32f4xx_tim.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
 .\objects\stm32f4xx_tim.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_spi.h
-.\objects\stm32f4xx_tim.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx.h
 .\objects\stm32f4xx_tim.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_dma.h
 .\objects\stm32f4xx_tim.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_usart.h
 .\objects\stm32f4xx_tim.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_gpio.h

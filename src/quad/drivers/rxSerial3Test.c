@@ -12,7 +12,8 @@ void rxSerial3TestInit(void)
 		return;
 	
 	/* gpsPortConfig->identifier = SERIAL_PORT_USART3 */
-	rxSerial3TestPort = openSerialPort(rxSerialTestPortConfig->identifier, FUNCTION_BLACKBOX, NULL, 115200, MODE_RXTX, SERIAL_NOT_INVERTED);
+	rxSerial3TestPort = openSerialPort(rxSerialTestPortConfig->identifier, FUNCTION_BLACKBOX, NULL, 9600, MODE_RXTX, SERIAL_NOT_INVERTED);
+//	rxSerial3TestPort = openSerialPort(rxSerialTestPortConfig->identifier, FUNCTION_BLACKBOX, NULL, 115200, MODE_RXTX, SERIAL_NOT_INVERTED);
 	if (!rxSerial3TestPort)
 		return;
 }

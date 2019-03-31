@@ -40,5 +40,8 @@
         const typeof( ((type *)0)->member ) *__mptr = (ptr);    \
         (type *)( (char *)__mptr - offsetof(type,member) );}))
 #endif
+		
+static inline int16_t cmp16(uint16_t x, uint16_t y)	{ return (int16_t)(x - y); }
+static inline int32_t cmp32(uint32_t x, uint32_t y)	{ return (int32_t)(x - y); }
 
 #endif	// __UTILS_H

@@ -1,7 +1,7 @@
 
 #include <stdio.h>				// debugging purposes
 #include <string.h>
-#include "configMaster.h"		// including led.h, ledTimer.h, motors.h, sound_beeper.h, target.h, serial.h, boardAlignment.h
+#include "configMaster.h"		// including led.h, ledTimer.h, motors.h, sound_beeper.h, target.h, serial.h, boardAlignment.h, adc.h
 #include "config_profile.h"
 #include "config_eeprom.h"
 //#include "led.h"
@@ -28,6 +28,8 @@
 #include "blackbox_io.h"
 #include "button.h"
 #include "ultrasound_hcsr04.h"
+#include "adc.h"
+#include "vnh5019CurrentSensing.h"
 
 #define BRUSHED_MOTORS_PWM_RATE 			16000
 #define BRUSHLESS_MOTORS_PWM_RATE 			480
@@ -241,6 +243,29 @@ static void ResetPwmEncoderConfig(pwmEncoderConfig_t *pwmEncoderConfig)
 	}
 }
 
+#ifdef USE_ADC
+static void ResetAdcConfig(adcConfig_t *adcConfig)
+{
+	adcConfig->resolutionScale = 4096;				// adc resolution is 12-bit, 2^12 = 4096
+	
+#ifdef MOTOR_CURRENT1_ADC_PIN
+	adcConfig->motorCurrentMeter1.enabled = true;
+	adcConfig->motorCurrentMeter1.ioTag = IO_TAG(MOTOR_CURRENT1_ADC_PIN);
+#endif
+	
+#ifdef MOTOR_CURRENT2_ADC_PIN
+	adcConfig->motorCurrentMeter2.enabled = true;
+	adcConfig->motorCurrentMeter2.ioTag = IO_TAG(MOTOR_CURRENT2_ADC_PIN);
+#endif
+}
+#endif
+
+static void ResetMotorCurrentMeterConfig(motorCurrentMeterConfig_t *motorCurrentMeterConfig)
+{
+	motorCurrentMeterConfig->currentMeterScale = 144;			// VNH5019 Motor Drive Current Sensing Sensitivity: 144 mV / A
+	motorCurrentMeterConfig->currentMeterOffset = 0;
+}
+
 #if 0
 static void ResetUltrasoundTimerConfig(ultrasoundTimerConfig_t *ultrasoundTimerConfig)
 {
@@ -261,6 +286,7 @@ static void ResetUltrasoundTimerConfig(ultrasoundTimerConfig_t *ultrasoundTimerC
 }
 #endif
 
+#ifdef ULTRASOUND
 static void ResetUltrasoundConfig(ultrasoundConfig_t *ultrasoundConfig)
 {
 /* ULTRASOUND_1_TRIGGER = PC8, ULTRASOUND_1_ECHO = PC9 */
@@ -317,6 +343,7 @@ static void ResetUltrasoundConfig(ultrasoundConfig_t *ultrasoundConfig)
 #error Ultrasound6 is not defined
 #endif
 }
+#endif
 
 static void ResetButtonModeSwitchConfig(button_t *buttonConfig)
 {
@@ -526,6 +553,12 @@ void createDefaultConfig(master_t *config)
 	
 	ResetDCBrushedMotorConfig(&config->dcBrushedMotorConfig);
 	
+#ifdef USE_ADC
+	ResetAdcConfig(&config->adcConfig);
+#endif
+
+	ResetMotorCurrentMeterConfig(&config->motorCurrentMeterConfig);
+
 	/* custom mixer, clear by defaults */
 //	for (int i = 0; i < MAX_SUPPORTED_MOTORS; i++) {
 //		config->customMotorMixer[i].throttle = 0.0f;
@@ -539,11 +572,13 @@ void createDefaultConfig(master_t *config)
 	/* Initialise pwm encoder */
 	ResetPwmEncoderConfig(&config->pwmEncoderConfig);
 	config->pwmEncoderConfig.inputFilteringMode = INPUT_FILTERING_DISABLED;
-	
+
+#ifdef ULTRASOUND
 	/* Initialise ultrasound */	
 	ResetUltrasoundConfig(&config->ultrasoundConfig);
 //	config->ultrasoundConfig.inputFilteringMode = INPUT_FILTERING_DISABLED;	
-	
+#endif
+
 //	config->rxConfig.serialrx_provider = SERIALRX_SBUS;
 //	config->rxConfig.halfDuplex = 0;
 //	config->rxConfig.rx_spi_protocol = 0;			// TODO: 0 for now

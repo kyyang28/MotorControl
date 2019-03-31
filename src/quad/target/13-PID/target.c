@@ -55,7 +55,7 @@ const timerHardware_t timerHardware[USABLE_TIMER_CHANNEL_COUNT] = {
 		.output = TIMER_OUTPUT_NONE,
 		.alternateFunction = GPIO_AF_TIM4,
 	},
-	{	/* TIM1 PWM generator for DC Brushed MOTOR 1 */
+	{	/* TIM1 PWMA generator for DC Brushed MOTOR 1 */
 		.tim = TIM1,
 		.tag = IO_TAG(PA8),
 		.channel = TIM_Channel_1,
@@ -63,7 +63,7 @@ const timerHardware_t timerHardware[USABLE_TIMER_CHANNEL_COUNT] = {
 		.output = TIMER_OUTPUT_STANDARD,
 		.alternateFunction = GPIO_AF_TIM1,
 	},
-	{	/* TIM1 PWM generator for DC Brushed MOTOR 2 */
+	{	/* TIM1 PWMB generator for DC Brushed MOTOR 2 */
 		.tim = TIM1,
 		.tag = IO_TAG(PA10),				// TIM1 PA9 (TIM_Channel_2) is not working for some reason
 		.channel = TIM_Channel_3,
@@ -71,20 +71,20 @@ const timerHardware_t timerHardware[USABLE_TIMER_CHANNEL_COUNT] = {
 		.output = TIMER_OUTPUT_STANDARD,
 		.alternateFunction = GPIO_AF_TIM1,
 	},
-	{	/* TIM3 Input Capture Mode for ultrasound 1 echo pin */
-		.tim = TIM3,
-		.tag = IO_TAG(PB0),
-		.channel = TIM_Channel_3,
-		.usageFlags = TIM_USE_PWM,
-		.output = TIMER_OUTPUT_NONE,
-		.alternateFunction = GPIO_AF_TIM3,
-	},
-	{	/* TIM3 Input Capture Mode for ultrasound 2 echo pin */
-		.tim = TIM3,
-		.tag = IO_TAG(PB1),
-		.channel = TIM_Channel_4,
-		.usageFlags = TIM_USE_PWM,
-		.output = TIMER_OUTPUT_NONE,
-		.alternateFunction = GPIO_AF_TIM3,
-	},
+//	{	/* TIM3 Input Capture Mode for ultrasound 1 echo pin */
+//		.tim = TIM3,
+//		.tag = IO_TAG(PB0),
+//		.channel = TIM_Channel_3,
+//		.usageFlags = TIM_USE_PWM,
+//		.output = TIMER_OUTPUT_NONE,
+//		.alternateFunction = GPIO_AF_TIM3,
+//	},
+//	{	/* TIM3 Input Capture Mode for ultrasound 2 echo pin */
+//		.tim = TIM3,
+//		.tag = IO_TAG(PB1),
+//		.channel = TIM_Channel_4,
+//		.usageFlags = TIM_USE_PWM,
+//		.output = TIMER_OUTPUT_NONE,
+//		.alternateFunction = GPIO_AF_TIM3,
+//	},
 };

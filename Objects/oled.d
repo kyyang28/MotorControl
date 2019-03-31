@@ -17,8 +17,9 @@
 .\objects\oled.o: .\src\lib\CMSIS\CM4\CoreSupport\core_cmSimd.h
 .\objects\oled.o: .\src\quad\target\13-PID\system_stm32f4xx.h
 .\objects\oled.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx_conf.h
-.\objects\oled.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
+.\objects\oled.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_adc.h
 .\objects\oled.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx.h
+.\objects\oled.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
 .\objects\oled.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_spi.h
 .\objects\oled.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_dma.h
 .\objects\oled.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_usart.h
@@ -72,3 +73,5 @@
 .\objects\oled.o: .\src\quad\flight\imu.h
 .\objects\oled.o: .\src\quad\drivers\button.h
 .\objects\oled.o: .\src\quad\drivers\ultrasound_hcsr04.h
+.\objects\oled.o: .\src\quad\drivers\ADC\adc.h
+.\objects\oled.o: .\src\quad\drivers\MOTOR\vnh5019CurrentSensing.h

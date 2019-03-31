@@ -16,8 +16,9 @@
 .\objects\fc_tasks.o: .\src\lib\CMSIS\CM4\CoreSupport\core_cmSimd.h
 .\objects\fc_tasks.o: .\src\quad\target\13-PID\system_stm32f4xx.h
 .\objects\fc_tasks.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx_conf.h
-.\objects\fc_tasks.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
+.\objects\fc_tasks.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_adc.h
 .\objects\fc_tasks.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx.h
+.\objects\fc_tasks.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
 .\objects\fc_tasks.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_spi.h
 .\objects\fc_tasks.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_dma.h
 .\objects\fc_tasks.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_usart.h
@@ -77,6 +78,8 @@
 .\objects\fc_tasks.o: .\src\quad\drivers\OLED\oled.h
 .\objects\fc_tasks.o: .\src\quad\drivers\button.h
 .\objects\fc_tasks.o: .\src\quad\drivers\ultrasound_hcsr04.h
+.\objects\fc_tasks.o: .\src\quad\drivers\ADC\adc.h
+.\objects\fc_tasks.o: .\src\quad\drivers\MOTOR\vnh5019CurrentSensing.h
 .\objects\fc_tasks.o: src\quad\fc\runtime_config.h
 .\objects\fc_tasks.o: .\src\quad\drivers\pwm_output.h
 .\objects\fc_tasks.o: .\src\quad\drivers\timer.h

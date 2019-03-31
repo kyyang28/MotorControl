@@ -19,8 +19,9 @@
 .\objects\gyro_sync.o: .\src\lib\CMSIS\CM4\CoreSupport\core_cmSimd.h
 .\objects\gyro_sync.o: .\src\quad\target\13-PID\system_stm32f4xx.h
 .\objects\gyro_sync.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx_conf.h
-.\objects\gyro_sync.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
+.\objects\gyro_sync.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_adc.h
 .\objects\gyro_sync.o: .\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx\stm32f4xx.h
+.\objects\gyro_sync.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_tim.h
 .\objects\gyro_sync.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_spi.h
 .\objects\gyro_sync.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_dma.h
 .\objects\gyro_sync.o: .\src\lib\STM32F4xx_StdPeriph_Drivers\inc\stm32f4xx_usart.h

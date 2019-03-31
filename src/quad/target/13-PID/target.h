@@ -35,10 +35,19 @@
 #define DC_BRUSHED_MOTOR1_AIN2	PB12
 #define DC_BRUSHED_MOTOR2_BIN1	PB14
 #define DC_BRUSHED_MOTOR2_BIN2	PB15
-//#define DC_BRUSHED_MOTOR1_AIN1	PE3
-//#define DC_BRUSHED_MOTOR1_AIN2	PE4
-//#define DC_BRUSHED_MOTOR2_BIN1	PC13
-//#define DC_BRUSHED_MOTOR2_BIN2	PC15
+//#define DC_BRUSHED_MOTOR1_AIN1	PC0		// working
+//#define DC_BRUSHED_MOTOR1_AIN2	PC1		// working
+//#define DC_BRUSHED_MOTOR1_AIN1	PD8
+//#define DC_BRUSHED_MOTOR1_AIN2	PD9
+//#define DC_BRUSHED_MOTOR2_BIN1	PD10
+//#define DC_BRUSHED_MOTOR2_BIN2	PD11
+
+#define USE_ADC
+#define ADC_INSTANCE					ADC1
+#define MOTOR_CURRENT1_ADC_PIN			PC2
+#define MOTOR_CURRENT2_ADC_PIN			PC3
+//#define MOTOR_CURRENT1_ADC_PIN			PC1
+//#define MOTOR_CURRENT2_ADC_PIN			PC2
 
 /* Ultrasound Pins */
 #define ULTRASOUND
@@ -80,7 +89,7 @@
 #define SERIAL_PORT_COUNT		3	// UART1, UART3, UART6
 //#define SERIAL_PORT_COUNT		4	// UART1, UART2, UART3, UART6
 
-#define USE_UART1
+//#define USE_UART1
 #ifdef USE_UART1
 #define UART1_RX_PIN        	PB7			// MSP RX
 #define UART1_TX_PIN        	PB6			// MSP TX
@@ -255,7 +264,7 @@
 /* Declare the default features */
 #ifndef DEFAULT_FEATURES
 //#define DEFAULT_FEATURES		0							// could be members of features_e
-#define DEFAULT_FEATURES		(FEATURE_ULTRASOUND)			// could be members of features_e
+#define DEFAULT_FEATURES		(FEATURE_ULTRASOUND | FEATURE_CURRENT_METER)			// could be members of features_e
 //#define DEFAULT_FEATURES		(FEATURE_AIRMODE | FEATURE_MOTOR_STOP)			// could be members of features_e
 //#define DEFAULT_FEATURES		(FEATURE_AIRMODE | FEATURE_SDCARD | FEATURE_BLACKBOX)			// could be members of features_e
 #endif

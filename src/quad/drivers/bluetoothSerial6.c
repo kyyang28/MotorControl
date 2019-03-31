@@ -12,7 +12,8 @@ void bluetoothSerial6Init(void)
 		return;
 	
 	/* gpsPortConfig->identifier = SERIAL_PORT_USART6 */
-	bluetoothSerial6Port = openSerialPort(rxSerialTestPortConfig->identifier, FUNCTION_RX_SERIAL, NULL, 9600, MODE_RXTX, SERIAL_NOT_INVERTED);
+	bluetoothSerial6Port = openSerialPort(rxSerialTestPortConfig->identifier, FUNCTION_RX_SERIAL, NULL, 1382400, MODE_RXTX, SERIAL_NOT_INVERTED);
+//	bluetoothSerial6Port = openSerialPort(rxSerialTestPortConfig->identifier, FUNCTION_RX_SERIAL, NULL, 9600, MODE_RXTX, SERIAL_NOT_INVERTED);
 //	bluetoothSerial6Port = openSerialPort(rxSerialTestPortConfig->identifier, FUNCTION_RX_SERIAL, NULL, 115200, MODE_RXTX, SERIAL_NOT_INVERTED);
 	if (!bluetoothSerial6Port)
 		return;

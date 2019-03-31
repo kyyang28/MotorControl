@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\src\lib\CMSIS\CM4\CoreSupport;.\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx;.\src\lib\STM32F4xx_StdPeriph_Drivers\inc;.\src\quad\build;.\src\quad\common;.\src\quad\config;.\src\quad\drivers;.\src\quad\fc;.\src\quad\io;.\src\quad\flight;.\src\quad\sensors;.\src\quad\rx;.\src\quad\io\asyncfatfs;.\src\quad\blackbox;.\src\quad\scheduler;.\src\quad\target\13-PID;.\src\quad\drivers\OLED</IncludePath>
+              <IncludePath>.\src\lib\CMSIS\CM4\CoreSupport;.\src\lib\CMSIS\CM4\DeviceSupport\ST\STM32F4xx;.\src\lib\STM32F4xx_StdPeriph_Drivers\inc;.\src\quad\build;.\src\quad\common;.\src\quad\config;.\src\quad\drivers;.\src\quad\fc;.\src\quad\io;.\src\quad\flight;.\src\quad\sensors;.\src\quad\rx;.\src\quad\io\asyncfatfs;.\src\quad\blackbox;.\src\quad\scheduler;.\src\quad\target\13-PID;.\src\quad\drivers\OLED;.\src\quad\drivers\ADC;.\src\quad\drivers\MOTOR</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -444,6 +444,11 @@
               <FileName>stm32f4xx_usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\lib\STM32F4xx_StdPeriph_Drivers\src\stm32f4xx_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\lib\STM32F4xx_StdPeriph_Drivers\src\stm32f4xx_adc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -599,6 +604,21 @@
               <FileName>ultrasound_hcsr04.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\quad\drivers\ultrasound_hcsr04.c</FilePath>
+            </File>
+            <File>
+              <FileName>adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\quad\drivers\ADC\adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>adc_stm32f4xx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\quad\drivers\ADC\adc_stm32f4xx.c</FilePath>
+            </File>
+            <File>
+              <FileName>vnh5019CurrentSensing.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\quad\drivers\MOTOR\vnh5019CurrentSensing.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -21,25 +21,29 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TCM.DLL V1.32.0.0
  
 <h2>Project:</h2>
-D:\Dropbox\SBWMR\Implementation\SBWMR_2\SBWMR\13-PID.uvprojx
-Project File Date:  03/10/2019
+D:\Dropbox\SBWMR\Implementation\MotorControl\13-PID.uvprojx
+Project File Date:  03/31/2019
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'F:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'STM32F407VG-Discovery'
 compiling fc_tasks.c...
-src\quad\fc\fc_tasks.c(268): warning:  #177-D: function "buttonModeSwitchPollOps"  was declared but never referenced
-  static void buttonModeSwitchPollOps(button_t *buttonModeSwitchConfig)
-src\quad\fc\fc_tasks.c(466): warning:  #177-D: function "stabilisationControlSBWMR"  was declared but never referenced
-  static int stabilisationControlSBWMR(int pitchAngle, float gyroY)
-src\quad\fc\fc_tasks.c(482): warning:  #177-D: function "velocityControlSBWMR"  was declared but never referenced
-  static int velocityControlSBWMR(int leftEncoder, int rightEncoder)
-src\quad\fc\fc_tasks.c(536): warning:  #177-D: function "yawControlSBWMR"  was declared but never referenced
-  static int yawControlSBWMR(float gyroZ, int leftEncoder, int rightEncoder)
-src\quad\fc\fc_tasks.c: 4 warnings, 0 errors
+src\quad\fc\fc_tasks.c(55): warning:  #177-D: variable "ultrasound1DistanceData"  was declared but never referenced
+  static int32_t ultrasound1DistanceData = ULTRASOUND_OUT_OF_RANGE;
+src\quad\fc\fc_tasks.c(56): warning:  #177-D: variable "ultrasound2DistanceData"  was declared but never referenced
+  static int32_t ultrasound2DistanceData = ULTRASOUND_OUT_OF_RANGE;
+src\quad\fc\fc_tasks.c(57): warning:  #177-D: variable "ultrasound3DistanceData"  was declared but never referenced
+  static int32_t ultrasound3DistanceData = ULTRASOUND_OUT_OF_RANGE;
+src\quad\fc\fc_tasks.c(58): warning:  #177-D: variable "ultrasound4DistanceData"  was declared but never referenced
+  static int32_t ultrasound4DistanceData = ULTRASOUND_OUT_OF_RANGE;
+src\quad\fc\fc_tasks.c(59): warning:  #177-D: variable "ultrasound5DistanceData"  was declared but never referenced
+  static int32_t ultrasound5DistanceData = ULTRASOUND_OUT_OF_RANGE;
+src\quad\fc\fc_tasks.c(60): warning:  #177-D: variable "ultrasound6DistanceData"  was declared but never referenced
+  static int32_t ultrasound6DistanceData = ULTRASOUND_OUT_OF_RANGE;
+src\quad\fc\fc_tasks.c: 6 warnings, 0 errors
 linking...
-Program Size: Code=23920 RO-data=3820 RW-data=5556 ZI-data=5764  
-".\Objects\13-PID.axf" - 0 Error(s), 4 Warning(s).
+Program Size: Code=23416 RO-data=984 RW-data=4356 ZI-data=5852  
+".\Objects\13-PID.axf" - 0 Error(s), 6 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -53,7 +57,7 @@ Package Vendor: Keil
   F:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

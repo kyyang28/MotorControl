@@ -1,0 +1,8531 @@
+﻿Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -240
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -320
+Encoder1: 0
+Motor1 pwm: -Encoder1: 0
+Motor1 pwm: -401
+Encoder1: 0
+Motor1 pwm: -402
+Encoder1: -2
+Motor1 pwm: -563
+Encoder1: 0
+Motor1 pwm: -404
+Encoder1: -2
+Motor1 pwm: -565
+Encoder1: -3
+Motor1 pwm: -646
+Encoder1: -44
+Motor1 pwm: -3935
+Encoder1: -132
+Motor1 pwm: -6900
+Encoder1: -17
+Motor1 pwm: -1806
+Encoder1: -21
+Motor1 pwm: -2131
+Encoder1: -26
+Motor1 pwm: -2537
+Encoder1: -82
+Motor1 pwm: -6900
+Encoder1: -29
+Motor1 pwm: -2800
+Encoder1: -35
+Motor1 pwm: -3288
+Encoder1: -36
+Motor1 pwm: -3376
+Encoder1: -38
+Motor1 pwm: -3544
+Encoder1: -39
+Motor1 pwm: -3632
+Encoder1: -42
+Motor1 pwm: -3881
+Encoder1: -89
+Motor1 pwm: -6900
+Encoder1: -51
+Motor1 pwm: -4630
+Encoder1: -54
+Motor1 pwm: -4881
+Encoder1: -166
+Motor1 pwm: -6900
+Encoder1: -60
+Motor1 pwm: -5408
+Encoder1: -66
+Motor1 pwm: -5902
+Encoder1: -68
+Motor1 pwm: -6076
+Encoder1: -71
+Motor1 pwm: -6331
+Encoder1: -201
+Motor1 pwm: -6900
+Encoder1: -78
+Motor1 pwm: -6900
+Encoder1: -81
+Motor1 pwm: -6900
+Encoder1: -84
+Motor1 pwm: -6900
+Encoder1: -86
+Motor1 pwm: -6900
+Encoder1: -89
+Motor1 pwm: -6900
+Encoder1: -91
+Motor1 pwm: -6900
+Encoder1: -91
+Motor1 pwm: -6900
+Encoder1: -94
+Motor1 pwm: -6900
+Encoder1: -94
+Motor1 pwm: -6900
+Encoder1: -96
+Motor1 pwm: -6900
+Encoder1: -96
+Motor1 pwm: -6900
+Encoder1: -97
+Motor1 pwm: -6900
+Encoder1: -98
+Motor1 pwm: -6900
+Encoder1: -99
+Motor1 pwm: -6900
+Encoder1: -98
+Motor1 pwm: -6900
+Encoder1: -100
+Motor1 pwm: -6900
+Encoder1: -99
+Motor1 pwm: -6900
+Encoder1: -100
+Motor1 pwm: -6900
+Encoder1: -100
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -99
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -100
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -103
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -102
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -105
+Motor1 pwm: -6900
+Encoder1: -106
+Motor1 pwm: -6900
+Encoder1: -104
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -101
+Motor1 pwm: -6900
+Encoder1: -98
+Motor1 pwm: -6900
+Encoder1: -97
+Motor1 pwm: -6900
+Encoder1: -95
+Motor1 pwm: -6900
+Encoder1: -94
+Motor1 pwm: -6900
+Encoder1: -92
+Motor1 pwm: -6900
+Encoder1: -90
+Motor1 pwm: -6900
+Encoder1: -89
+Motor1 pwm: -6900
+Encoder1: -87
+Motor1 pwm: -6900
+Encoder1: -85
+Motor1 pwm: -6900
+Encoder1: -84
+Motor1 pwm: -6900
+Encoder1: -82
+Motor1 pwm: -6900
+Encoder1: -81
+Motor1 pwm: -6900
+Encoder1: -79
+Motor1 pwm: -6900
+Encoder1: -78
+Motor1 pwm: -6900
+Encoder1: -76
+Motor1 pwm: -6900
+Encoder1: -75
+Motor1 pwm: -6900
+Encoder1: -73
+Motor1 pwm: -6900
+Encoder1: -72
+Motor1 pwm: -6900
+Encoder1: -70
+Motor1 pwm: -6900
+Encoder1: -69
+Motor1 pwm: -6900
+Encoder1: -67
+Motor1 pwm: -6900
+Encoder1: -67
+Motor1 pwm: -6900
+Encoder1: -64
+Motor1 pwm: -6900
+Encoder1: -64
+Motor1 pwm: -6900
+Encoder1: -62
+Motor1 pwm: -6900
+Encoder1: -60
+Motor1 pwm: -6900
+Encoder1: -59
+Motor1 pwm: -6900
+Encoder1: -58
+Motor1 pwm: -6900
+Encoder1: -57
+Motor1 pwm: -6900
+Encoder1: -56
+Motor1 pwm: -6900
+Encoder1: -54
+Motor1 pwm: -6900
+Encoder1: -52
+Motor1 pwm: -6900
+Encoder1: -52
+Motor1 pwm: -6900
+Encoder1: -50
+Motor1 pwm: -6900
+Encoder1: -49
+Motor1 pwm: -6900
+Encoder1: -48
+Motor1 pwm: -6900
+Encoder1: -47
+Motor1 pwm: -6900
+Encoder1: -45
+Motor1 pwm: -6900
+Encoder1: -45
+Motor1 pwm: -6900
+Encoder1: -43
+Motor1 pwm: -6900
+Encoder1: -42
+Motor1 pwm: -6900
+Encoder1: -41
+Motor1 pwm: -6900
+Encoder1: -40
+Motor1 pwm: -6900
+Encoder1: -39
+Motor1 pwm: -6900
+Encoder1: -37
+Motor1 pwm: -6900
+Encoder1: -37
+Motor1 pwm: -6900
+Encoder1: -35
+Motor1 pwm: -6900
+Encoder1: -35
+Motor1 pwm: -6900
+Encoder1: -34
+Motor1 pwm: -6900
+Encoder1: -32
+Motor1 pwm: -6900
+Encoder1: -32
+Motor1 pwm: -6900
+Encoder1: -31
+Motor1 pwm: -6900
+Encoder1: -29
+Motor1 pwm: -6900
+Encoder1: -29
+Motor1 pwm: -6900
+Encoder1: -28
+Motor1 pwm: -6900
+Encoder1: -27
+Motor1 pwm: -6900
+Encoder1: -26
+Motor1 pwm: -6900
+Encoder1: -25
+Motor1 pwm: -6900
+Encoder1: -25
+Motor1 pwm: -6900
+Encoder1: -23
+Motor1 pwm: -6900
+Encoder1: -22
+Motor1 pwm: -6900
+Encoder1: -22
+Motor1 pwm: -6900
+Encoder1: -21
+Motor1 pwm: -6900
+Encoder1: -20
+Motor1 pwm: -6900
+Encoder1: -19
+Motor1 pwm: -6900
+Encoder1: -19
+Motor1 pwm: -6900
+Encoder1: -17
+Motor1 pwm: -6900
+Encoder1: -17
+Motor1 pwm: -6900
+Encoder1: -17
+Motor1 pwm: -6900
+Encoder1: -15
+Motor1 pwm: -6900
+Encoder1: -15
+Motor1 pwm: -6900
+Encoder1: -13
+Motor1 pwm: -6900
+Encoder1: -14
+Motor1 pwm: -6900
+Encoder1: -12
+Motor1 pwm: -6900
+Encoder1: -12
+Motor1 pwm: -6900
+Encoder1: -11
+Motor1 pwm: -6900
+Encoder1: -11
+Motor1 pwm: -6900
+Encoder1: -9
+Motor1 pwm: -6900
+Encoder1: -10
+Motor1 pwm: -6900
+Encoder1: -8
+Motor1 pwm: -6900
+Encoder1: -8
+Motor1 pwm: -6900
+Encoder1: -8
+Motor1 pwm: -6900
+Encoder1: -6
+Motor1 pwm: -6900
+Encoder1: -6
+Motor1 pwm: -6900
+Encoder1: -6
+Motor1 pwm: -6900
+Encoder1: -5
+Motor1 pwm: -6900
+Encoder1: -4
+Motor1 pwm: -6900
+Encoder1: -4
+Motor1 pwm: -6900
+Encoder1: -3
+Motor1 pwm: -6900
+Encoder1: -2
+Motor1 pwm: -6900
+Encoder1: -2
+Motor1 pwm: -6900
+Encoder1: -2
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
+Encoder1: 0
+Motor1 pwm: -6900
