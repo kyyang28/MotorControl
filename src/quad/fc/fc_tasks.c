@@ -437,29 +437,31 @@ static void taskMotorEncoder(timeUs_t currentTimeUs)
 //		leftMotorPwm = leftMotor_IncrementalPIController(LeftEncoder, LeftMotorTargetVelocity);
 //		rightMotorPwm = rightMotor_IncrementalPIController(RightEncoder, RightMotorTargetVelocity);
 
-//		leftMotorPwm = -840;			// 840 / 8400 = 0.1 (10% duty cycle), Measured voltage: 1.75 V , Measured current: 123 mA
+//		leftMotorPwm = -840;			// 840 / 8400 = 0.1 (10% duty cycle), Measured voltage: 1.75 V , Measured current: 123 mA, Resistance: 14 Ohm
 //		rightMotorPwm = -840;
 
-//		leftMotorPwm = -1680;			// 1680 / 8400 = 0.2 (20% duty cycle), Measured voltage: 2.80 V , Measured current: 148 mA
+//		leftMotorPwm = -1680;			// 1680 / 8400 = 0.2 (20% duty cycle), Measured voltage: 2.80 V , Measured current: 148 mA, Resistance: 19 Ohm
 //		rightMotorPwm = -1680;
 
-//		leftMotorPwm = -2520;			// 2520 / 8400 = 0.3 (30% duty cycle), Measured voltage: 3.96 V , Measured current: 173 mA
+//		leftMotorPwm = -2520;			// 2520 / 8400 = 0.3 (30% duty cycle), Measured voltage: 3.96 V , Measured current: 173 mA, Resistance: 23 Ohm
 //		rightMotorPwm = -2520;
 
-//		leftMotorPwm = -3360;			// 3360 / 8400 = 0.4 (40% duty cycle), Measured voltage: 5.18 V , Measured current: 190 mA
+//		leftMotorPwm = -3360;			// 3360 / 8400 = 0.4 (40% duty cycle), Measured voltage: 5.18 V , Measured current: 190 mA, Resistance: 27 Ohm
 //		rightMotorPwm = -3360;
 
-//		leftMotorPwm = -4200;			// 4200 / 8400 = 0.5 (50% duty cycle), Measured voltage: 6.4 V , Measured current: 216 mA
+//		leftMotorPwm = -4200;			// 4200 / 8400 = 0.5 (50% duty cycle), Measured voltage: 6.4 V , Measured current: 216 mA, Resistance: 30 Ohm
 //		rightMotorPwm = -4200;
 
-//		leftMotorPwm = -5040;			// 5040 / 8400 = 0.6 (60% duty cycle), Measured voltage: 7.64 V , Measured current: 240 mA
+//		leftMotorPwm = -5040;			// 5040 / 8400 = 0.6 (60% duty cycle), Measured voltage: 7.64 V , Measured current: 240 mA, Resistance: 32 Ohm
 //		rightMotorPwm = -5040;
 
-//		leftMotorPwm = -5880;			// 5880 / 8400 = 0.7 (70% duty cycle), Measured voltage: 8.9 V , Measured current: 252 mA
+//		leftMotorPwm = -5880;			// 5880 / 8400 = 0.7 (70% duty cycle), Measured voltage: 8.9 V , Measured current: 252 mA, Resistance: 35 Ohm
 //		rightMotorPwm = -5880;
 
-//		leftMotorPwm = -6720;			// 6720 / 8400 = 0.8 (80% duty cycle), Measured voltage: 10.18 V , Measured current: 264 mA
+//		leftMotorPwm = -6720;			// 6720 / 8400 = 0.8 (80% duty cycle), Measured voltage: 10.18 V , Measured current: 264 mA, Resistance: 39 Ohm
 //		rightMotorPwm = -6720;
+
+		/* Average resistance is 27.375 Ohm */
 
 		/* Motor PWM boundary limitation */
 		limitMotorPwm(&leftMotorPwm, &rightMotorPwm);
