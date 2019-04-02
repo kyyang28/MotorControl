@@ -220,6 +220,8 @@ void configTimeBase4Encoder(TIM_TypeDef *tim, uint16_t arr, uint8_t psc)
 	
 	TIM_TimeBaseStructInit(&TIM_TimeBaseStructure);
 	
+//	printf("SystemCoreClock: %u\r\n", SystemCoreClock);
+	
 	TIM_TimeBaseStructure.TIM_Period = (arr - 1) & 0xFFFF;		// AKA TIMx_ARR	
 	TIM_TimeBaseStructure.TIM_Prescaler = psc;
 	

@@ -262,7 +262,7 @@ static void ResetAdcConfig(adcConfig_t *adcConfig)
 
 static void ResetMotorCurrentMeterConfig(motorCurrentMeterConfig_t *motorCurrentMeterConfig)
 {
-	motorCurrentMeterConfig->currentMeterScale = 144;			// VNH5019 Motor Drive Current Sensing Sensitivity: 144 mV / A
+	motorCurrentMeterConfig->currentMeterScale = 140;			// VNH5019 Motor Drive Current Sensing Sensitivity: 140 mV / A
 	motorCurrentMeterConfig->currentMeterOffset = 0;
 }
 

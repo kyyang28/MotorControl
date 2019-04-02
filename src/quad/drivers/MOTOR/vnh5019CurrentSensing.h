@@ -12,6 +12,8 @@ typedef struct motorCurrentMeterConfig_s {
 //extern float unfilteredCurrentMeterValue2;
 extern float filteredLeftMotorCurrentMeterValue;
 extern float filteredRightMotorCurrentMeterValue;
+//extern int32_t meanFilteredLeftMotorCurrentMeterValue;
+//extern int32_t meanFilteredRightMotorCurrentMeterValue;
 
 void updateVNH5019LeftMotorCurrentSensor(int32_t lastUpdateAt);
 void updateVNH5019RightMotorCurrentSensor(int32_t lastUpdateAt);

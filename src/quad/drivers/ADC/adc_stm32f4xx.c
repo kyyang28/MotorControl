@@ -92,7 +92,8 @@ void adcInit(adcConfig_t *adcConfig)
 		IOConfigGPIO(IOGetByTag(adcOperationConfig[i].tag), IO_CONFIG(GPIO_Mode_AN, 0, GPIO_OType_OD, GPIO_PuPd_NOPULL));
 		adcOperationConfig[i].adcChannel 	= adcChannelByTag(adcOperationConfig[i].tag);
 		adcOperationConfig[i].dmaIndex 		= configuredAdcChannels++;
-		adcOperationConfig[i].sampleTime 	= ADC_SampleTime_480Cycles;
+		adcOperationConfig[i].sampleTime 	= ADC_SampleTime_28Cycles;
+//		adcOperationConfig[i].sampleTime 	= ADC_SampleTime_480Cycles;
 		adcOperationConfig[i].enabled 		= true;
 	}
 	
@@ -145,13 +146,28 @@ void adcInit(adcConfig_t *adcConfig)
 	 */
 	DMA_Cmd(adcDevice.DMAy_Streamx, ENABLE);
 	
+	/*
+	 * HCLK   = SYSCLK / 1 = 168 MHz
+	 * PCLK2  = HCLK / 2 = 84 MHz
+	 * ADCCLK = PCLK2 / 4 = 21 MHz 
+	 * ADC Sampling Rate = Sampling Time + Conversion Time = 480 + 12 cycles (fixed) = 492 cycle
+	 * Conversion Time = 21 MHz / 492 cycle = 42.68 ksample/sec
+	 * ADC Sampling Rate = Sampling Time + Conversion Time = 144 + 12 cycles (fixed) = 156 cycle
+	 * Conversion Time = 21 MHz / 156 cycle = 134.6 ksample/s. 
+	*/
+	
 	/* ADC CommonInitTypeDef init */
 	ADC_CommonInitTypeDef ADC_CommonInitStructure;
 	
 	ADC_CommonStructInit(&ADC_CommonInitStructure);
 	
+	/* ADCCLK = 21 MHz, ADC_SampleTime_3Cycles = 3 cycles, Conversion sample = 21 MHz / (3 + 12) cycles = 21000 / 15 = 1400 ksamples/sec
+	 * 
+	 * Conversion time = (3 + 12) cycles / 21 MHz = 0.714 microseconds
+	 */
 	ADC_CommonInitStructure.ADC_Mode 				= ADC_Mode_Independent;
-	ADC_CommonInitStructure.ADC_Prescaler 			= ADC_Prescaler_Div8;
+	ADC_CommonInitStructure.ADC_Prescaler 			= ADC_Prescaler_Div4;	// SystemCoreClock / 2 = 84 MHz = PCLK2 / 4 = ADCCLK = 84 MHz / 4 = 21 MHz
+//	ADC_CommonInitStructure.ADC_Prescaler 			= ADC_Prescaler_Div8;	// SystemCoreClock / 2 = 84 MHz = PCLK2 / 8 = ADCCLK = 84 MHz / 8 = 10.5 MHz
 	ADC_CommonInitStructure.ADC_DMAAccessMode 		= ADC_DMAAccessMode_Disabled;
 	ADC_CommonInitStructure.ADC_TwoSamplingDelay 	= ADC_TwoSamplingDelay_5Cycles;
 	

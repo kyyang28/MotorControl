@@ -206,14 +206,16 @@ cfTask_t cfTasks[TASK_COUNT] = {
 	[TASK_LEFT_MOTOR_CURRENT_METER] = {
 		.taskName = "LEFT_MOTOR_CURRENT_METER",
 		.taskFunc = taskLeftMotorCurrentMeter,
-		.desiredPeriod = TASK_PERIOD_HZ(50),				// 50 Hz = 1000000 / 50 = 20000 us = 20 ms
+		.desiredPeriod = TASK_PERIOD_HZ(100),				// 50 Hz = 1000000 / 100 = 10000 us = 10 ms
+//		.desiredPeriod = TASK_PERIOD_HZ(50),				// 50 Hz = 1000000 / 50 = 20000 us = 20 ms
 		.staticPriority = TASK_PRIORITY_MEDIUM,
 	},
 	
 	[TASK_RIGHT_MOTOR_CURRENT_METER] = {
 		.taskName = "RIGHT_MOTOR_CURRENT_METER",
 		.taskFunc = taskRightMotorCurrentMeter,
-		.desiredPeriod = TASK_PERIOD_HZ(50),				// 50 Hz = 1000000 / 50 = 20000 us = 20 ms
+		.desiredPeriod = TASK_PERIOD_HZ(100),				// 50 Hz = 1000000 / 100 = 10000 us = 10 ms
+//		.desiredPeriod = TASK_PERIOD_HZ(50),				// 50 Hz = 1000000 / 50 = 20000 us = 20 ms
 		.staticPriority = TASK_PRIORITY_MEDIUM,
 	},
 #endif
@@ -264,7 +266,7 @@ int Read_Encoder(uint8_t TIMX)
 
 void limitMotorPwm(int *motor1, int *motor2)
 {
-	/* The maximum PWM value is 7200 setup by dcBrushedMotorInit(), 6900 for the upper bound */
+	/* The maximum PWM value is 8400 setup by dcBrushedMotorInit(), 6900 for the upper bound */
 	int Amplitude = 6900;
 	
     if (*motor1 < -Amplitude)
@@ -296,7 +298,22 @@ pwm is the updated incremental PID value.
 For speed control, the PI-only controller is utilised
 pwm += Kp[e(k) - e(k-1)] + Ki * e(k)
 **************************************************************************/
-int Incremental_PIController(int Encoder, int Target)
+int leftMotor_IncrementalPIController(int Encoder, int Target)
+{
+	float Kp = 80, Ki = 1.2;
+//	float updatedPWM;
+	static int error, updatedPWM, prev_error;
+//	static int error, prev_error;
+//	printf("Encoder: %d\r\n", Encoder);
+	error = Encoder - Target;                					// Calculate the error
+//	printf("Bias: %d\r\n", Bias);
+	updatedPWM += Kp * (error - prev_error) + Ki * error;   	// Incremental PI Controller
+//	printf("Pwm: %d\r\n", Pwm);
+	prev_error = error;	                   						// Store previous bias
+	return updatedPWM;                         					// Return PID PWM value
+}
+
+int rightMotor_IncrementalPIController(int Encoder, int Target)
 {
 	float Kp = 80, Ki = 1.2;
 //	float updatedPWM;
@@ -390,7 +407,7 @@ int RightMotorTargetVelocity = 10;
 //int rightMotorPwm = -200;
 
 static void taskMotorEncoder(timeUs_t currentTimeUs)
-{	
+{
 //	printf("currentTimeUs: %u\r\n", currentTimeUs);
 	
 	LeftEncoder = Read_Encoder(2);		// 2: TIM2, left encoder
@@ -417,13 +434,32 @@ static void taskMotorEncoder(timeUs_t currentTimeUs)
 		
 //        printf("%.4f\t%.4f\t%d\r\n", gyro.gyroADCf[Y], gyro.gyroADCf[Z], attitude.raw[Y]);
 				
-		leftMotorPwm = Incremental_PIController(LeftEncoder, LeftMotorTargetVelocity);
-		rightMotorPwm = Incremental_PIController(RightEncoder, RightMotorTargetVelocity);
+//		leftMotorPwm = leftMotor_IncrementalPIController(LeftEncoder, LeftMotorTargetVelocity);
+//		rightMotorPwm = rightMotor_IncrementalPIController(RightEncoder, RightMotorTargetVelocity);
 
-//		leftMotorPwm = -1680;			// 1680 / 8400 = 0.2 (20% duty cycle)
-//		rightMotorPwm = 1680;
-//		leftMotorPwm = -200;
-//		rightMotorPwm = 200;
+//		leftMotorPwm = -840;			// 840 / 8400 = 0.1 (10% duty cycle), Measured voltage: 1.75 V , Measured current: 123 mA
+//		rightMotorPwm = -840;
+
+//		leftMotorPwm = -1680;			// 1680 / 8400 = 0.2 (20% duty cycle), Measured voltage: 2.80 V , Measured current: 148 mA
+//		rightMotorPwm = -1680;
+
+//		leftMotorPwm = -2520;			// 2520 / 8400 = 0.3 (30% duty cycle), Measured voltage: 3.96 V , Measured current: 173 mA
+//		rightMotorPwm = -2520;
+
+//		leftMotorPwm = -3360;			// 3360 / 8400 = 0.4 (40% duty cycle), Measured voltage: 5.18 V , Measured current: 190 mA
+//		rightMotorPwm = -3360;
+
+//		leftMotorPwm = -4200;			// 4200 / 8400 = 0.5 (50% duty cycle), Measured voltage: 6.4 V , Measured current: 216 mA
+//		rightMotorPwm = -4200;
+
+//		leftMotorPwm = -5040;			// 5040 / 8400 = 0.6 (60% duty cycle), Measured voltage: 7.64 V , Measured current: 240 mA
+//		rightMotorPwm = -5040;
+
+//		leftMotorPwm = -5880;			// 5880 / 8400 = 0.7 (70% duty cycle), Measured voltage: 8.9 V , Measured current: 252 mA
+//		rightMotorPwm = -5880;
+
+//		leftMotorPwm = -6720;			// 6720 / 8400 = 0.8 (80% duty cycle), Measured voltage: 10.18 V , Measured current: 264 mA
+//		rightMotorPwm = -6720;
 
 		/* Motor PWM boundary limitation */
 		limitMotorPwm(&leftMotorPwm, &rightMotorPwm);
@@ -431,9 +467,13 @@ static void taskMotorEncoder(timeUs_t currentTimeUs)
 		updateMotorPwm(&leftMotorPwm, &rightMotorPwm);
 //	}
 
+#if 0
+	printf("%u,%d,%d,%d,%d,%d,%d\r\n", currentTimeUs, LeftEncoder, ABS(leftMotorPwm), meanFilteredLeftMotorCurrentMeterValue, 
+					RightEncoder, ABS(rightMotorPwm), meanFilteredRightMotorCurrentMeterValue);
+#else
 	printf("%u,%d,%d,%d,%d,%d,%d\r\n", currentTimeUs, LeftEncoder, ABS(leftMotorPwm), (int32_t)round(filteredLeftMotorCurrentMeterValue), 
-					RightEncoder, ABS(rightMotorPwm), (int32_t)round(filteredLeftMotorCurrentMeterValue));
-		
+					RightEncoder, ABS(rightMotorPwm), (int32_t)round(filteredRightMotorCurrentMeterValue));
+#endif
 //	printf("(LeftEncoder, LeftMotor_PWM) = (%d, %d)\r\n", LeftEncoder, leftMotorPwm);
 //	printf("(RightEncoder, RightMotor_PWM) = (%d, %d)\r\n", RightEncoder, rightMotorPwm);
 }
@@ -446,11 +486,11 @@ static void taskLeftMotorCurrentMeter(timeUs_t currentTimeUs)
 //		printf("motorCurrentSinceLastRecorded: %d\r\n", motorCurrentSinceLastRecorded);
 		
 		/* taskMotorCurrentMeter period is 20 ms, CURRENT_INTERVAL = 21 ms, motor current sensing process is updated every 40 ms (20 ms * 2) */
-		if (motorCurrentSinceLastRecorded >= CURRENT_INTERVAL) {
-			motorCurrentLastRecorded = currentTimeUs;
+//		if (motorCurrentSinceLastRecorded >= CURRENT_INTERVAL) {
+//			motorCurrentLastRecorded = currentTimeUs;
 //			printf("curr: %d, interval: %u\r\n", motorCurrentSinceLastRecorded, CURRENT_INTERVAL);
 			updateVNH5019LeftMotorCurrentSensor(motorCurrentSinceLastRecorded);
-		}
+//		}
 	}
 }
 
@@ -462,11 +502,11 @@ static void taskRightMotorCurrentMeter(timeUs_t currentTimeUs)
 //		printf("motorCurrentSinceLastRecorded: %d\r\n", motorCurrentSinceLastRecorded);
 		
 		/* taskMotorCurrentMeter period is 20 ms, CURRENT_INTERVAL = 21 ms, motor current sensing process is updated every 40 ms (20 ms * 2) */
-		if (motorCurrentSinceLastRecorded >= CURRENT_INTERVAL) {
-			motorCurrentLastRecorded = currentTimeUs;
+//		if (motorCurrentSinceLastRecorded >= CURRENT_INTERVAL) {
+//			motorCurrentLastRecorded = currentTimeUs;
 //			printf("curr: %d, interval: %u\r\n", motorCurrentSinceLastRecorded, CURRENT_INTERVAL);
 			updateVNH5019RightMotorCurrentSensor(motorCurrentSinceLastRecorded);
-		}
+//		}
 	}
 }
 

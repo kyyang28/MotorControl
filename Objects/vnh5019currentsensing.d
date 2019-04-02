@@ -2,9 +2,10 @@
 .\objects\vnh5019currentsensing.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\vnh5019currentsensing.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\vnh5019currentsensing.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\vnh5019currentsensing.o: .\src\quad\common\maths.h
+.\objects\vnh5019currentsensing.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\vnh5019currentsensing.o: .\src\quad\drivers\ADC\adc.h
 .\objects\vnh5019currentsensing.o: .\src\quad\drivers\io.h
-.\objects\vnh5019currentsensing.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\vnh5019currentsensing.o: .\src\quad\drivers\iodef.h
 .\objects\vnh5019currentsensing.o: .\src\quad\common\utils.h
 .\objects\vnh5019currentsensing.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
@@ -63,7 +64,6 @@
 .\objects\vnh5019currentsensing.o: .\src\quad\io\motors.h
 .\objects\vnh5019currentsensing.o: .\src\quad\flight\mixer.h
 .\objects\vnh5019currentsensing.o: .\src\quad\flight\pid.h
-.\objects\vnh5019currentsensing.o: .\src\quad\common\maths.h
 .\objects\vnh5019currentsensing.o: .\src\quad\rx\rx.h
 .\objects\vnh5019currentsensing.o: .\src\quad\build\platform.h
 .\objects\vnh5019currentsensing.o: .\src\lib\CMSIS\CM4\CoreSupport\core_cm4.h

@@ -85,6 +85,16 @@ float acosApprox(float x);
 #define tanApprox(x)				tanf(x)
 #endif
 
+int32_t quickMedianFilter3(int32_t * v);
+int32_t quickMedianFilter5(int32_t * v);
+int32_t quickMedianFilter7(int32_t * v);
+int32_t quickMedianFilter9(int32_t * v);
+
+float quickMedianFilter3f(float * v);
+float quickMedianFilter5f(float * v);
+float quickMedianFilter7f(float * v);
+float quickMedianFilter9f(float * v);
+
 float fastInvSqrt(float x);
 
 float degreesToRadians(int16_t degrees);
